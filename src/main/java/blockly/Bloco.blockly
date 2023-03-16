@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="JAVA" bpmnAble="false" formTarget="" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JAVA" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
+  <metadata scale="1" scrollx="483.9000000000008" scrolly="-166" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-322" y="173">
+    <mutation>
+      <arg id="51c0d24b" name="x"/>
+    </mutation>
+    <field customattributes="" name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="!WB$8WFZ3~_/|dwCRii+" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="N9`KE$wb(cXxDI29F=kH" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field customattributes="" name="TEXT">chamou</field>
+          </shadow>
+        </value>
+        <next>
+          <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="s6?.-WNSb,Tei9o{?V8p" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+            <value name="TEXT">
+              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=":R({sMJK,Im7{(Rqy|SF" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field customattributes="" name="TEXT">abc</field>
+              </shadow>
+              <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="#a5~|LYAOHg^oxmm)+Hz" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                <field customattributes="" name="VAR">x</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Lq%1UflRmkBL0WxIkTf]" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+        <field customattributes="" name="TEXT">oxe</field>
+      </block>
+    </value>
+  </block>
+</blockly>
